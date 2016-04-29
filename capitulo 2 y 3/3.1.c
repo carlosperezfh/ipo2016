@@ -12,7 +12,7 @@ int main()
 {
     char ele;
     int res_bus;
-	int cadena_ord[10] = {0, 2, 5 , 6, 9, 12, 13, 15, 19, 48};
+	int cadena_ord[11] = {0, 2, 5 , 6, 9, 12, 13, 15, 19, 48,'/0'};
 
 	printf("Ingrese un numero entre 0 y 22: \n");
 	scanf(" %c", &ele);
